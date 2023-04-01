@@ -35,3 +35,4 @@ src/pages/components.jsx
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.vscode/settings.json

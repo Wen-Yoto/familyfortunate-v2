@@ -185,6 +185,7 @@ const QuestionManager: NextPage = () => {
     document.addEventListener('keydown', handleEscapeKey)
     return () => document.removeEventListener('keydown', handleEscapeKey)
   }, [])
+  
 
   const indexOfLastPost = currentPage * postsPerPage
   const indexOfFirstPost = indexOfLastPost - postsPerPage
@@ -192,6 +193,7 @@ const QuestionManager: NextPage = () => {
 
   // Change page
   const paginate = (pageNumber: SetStateAction<number>) => setCurrentPage(pageNumber)
+  
 
   return (
     <>
