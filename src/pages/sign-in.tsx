@@ -15,6 +15,8 @@ import axios from 'axios'
 import { Spinner } from 'flowbite-react'
 import type { NextPage } from 'next'
 import Cookies from 'universal-cookie'
+import { clear, error } from 'console'
+import ResetPassword from './reset-password'
 
 const SignIn: NextPage = () => {
   const cookies = new Cookies()
@@ -28,6 +30,7 @@ const SignIn: NextPage = () => {
     email: '',
     password: '',
     remember: 'false',
+    clear: 'test',
   }
 
   // getting the event handlers from our custom hook

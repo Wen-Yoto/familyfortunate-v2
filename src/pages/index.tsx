@@ -78,7 +78,7 @@ export default function Home() {
 
       <header className="bg-vanilla text-white">
         <Header />
-        <div className="mx-auto max-w-screen-xl px-10 pt-16">
+        <div className="mx-auto max-w-screen-xl px-8 pt-16">
           <div className="relative">
             <Image
               className="absolute top-0 left-1/2 z-0 h-[264px] w-[184px] -translate-x-1/2 shadow-xl md:left-16 md:translate-x-0 lg:h-[524px] lg:w-[356px]"
@@ -225,9 +225,9 @@ export default function Home() {
       <section className="bg-black-pearl px-10 pt-14 pb-12 text-white md:pt-16 md:pb-14">
         <div className="mx-auto grid max-w-screen-lg grid-cols-1 gap-8 md:grid-cols-2 lg:gap-16">
           <div className="md:order-1 md:col-span-2">
-            <h2 className="font-serif text-[3.25rem] font-bold leading-none lg:text-6xl">
+            <h2 className="font-serif text-[3rem] font-bold leading-none lg:text-6xl">
               <span className="block text-white/30">Start</span>{' '}
-              <span className="-mt-2 ml-16 block">right away</span>
+              <span className="-mt-2 ml-14 block">right away</span>
             </h2>
             <p className="mt-2 ml-8 text-sm uppercase tracking-wide text-white/70">
               Capture the stories of your lifetime
@@ -494,16 +494,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-black-pearl pt-32 pb-16 text-white">
+      <section className="bg-black-pearl pt-20 pb-16 text-white">
         <div className="container">
           <div className="marquee gift flex overflow-hidden whitespace-nowrap">
-            <h2 className="mr-4 bg-texture bg-clip-text pb-2 font-serif text-[12rem] font-bold text-transparent">
+            <h2 className="mr-4 bg-texture bg-clip-text pb-2 font-serif text-[8rem] font-bold text-transparent">
               The gift that lasts a lifetime.
             </h2>
           </div>
 
           <div className="swiper presentation">
-            <div className="swiper-wrapper mt-8 pb-4">
+            <div className="swiper-wrapper mt-8 pb-32">
               <div className="swiper-slide flex flex-col items-center">
                 <h3 className="font-serif text-3xl font-bold leading-none md:order-2 md:mt-8 md:text-5xl lg:text-6xl">
                   <span className="block text-white/40">Preserve family memories to</span>
